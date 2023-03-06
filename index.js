@@ -97,12 +97,14 @@ hide.addEventListener("click",()=>{
     if(a==1){
         tableBody.style.visibility="hidden";
         tab.style.display="none";
+        hide.innerHTML="Show all entries";
         a=0;
     }
     else{
         tableBody.style.visibility="visible";
         tab.style.display="block";
+        hide.innerHTML="Wrap all entries";
         a=1;
     }
-    console.log("kisine click kia");
+//     console.log("Anyone has clicked button");
 })
